@@ -1,15 +1,17 @@
 'use strict';
 
-var merge = require('merge-deep')
+var merge = require('merge-deep');
 var Bliss = require('bliss');
 
 exports.name = 'bliss';
 exports.inputFormats = ['bliss', 'html'];
 exports.outputFormat = 'html';
 
-exports.compile = function (str, options, locals) {
-  var opts = typeof options === 'object' ? options : null;
+exports.compile = function compile (str, opts) {
   var bliss = new Bliss(opts);
-  var data = merge({}, opts, locals);
-  return bliss.compile(str, data);
+  return function (locals) {
+    locals = locals.context || locals || {};
+    locals = merge({}, opts.context || {}, locals);
+    return bliss.compile(str, {context: locals})();
+  };
 };
