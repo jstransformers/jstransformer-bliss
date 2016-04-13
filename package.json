@@ -21,6 +21,6 @@
   "license": "MIT",
   "dependencies": {
     "bliss": "^1.0.1",
-    "merge-deep": "^2.0.0"
+    "merge-deep": "^3.0.0"
   }
 }
