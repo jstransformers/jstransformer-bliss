@@ -16,11 +16,20 @@
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
   },
-  "repository": "jstransformers/jstransformer-bliss",
-  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
-  "license": "MIT",
   "dependencies": {
     "bliss": "^1.0.1",
     "merge-deep": "^3.0.0"
-  }
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jstransformers/jstransformer-bliss.git"
+  },
+  "author": {
+    "name": "JSTransformers Team",
+    "url": "http://github.com/orgs/jstransformers/people"
+  },
+  "license": "MIT"
 }
