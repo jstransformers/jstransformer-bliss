@@ -1,6 +1,6 @@
 {
   "name": "jstransformer-bliss",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "bliss support for JSTransformers",
   "keywords": [
     "bliss",
