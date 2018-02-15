@@ -17,7 +17,7 @@
 > For more use-cases see the **tests** in [test folder](./test) or see the [JSTransformer API](http://github.com/jstransformers/jstransformer#api) for more details.
 
 ```js
-var bliss = require('jstransformer')(require('jstransformer-bliss'));
+var bliss = require('jstransformer')(require('jstransformer-bliss'))
 
 bliss.render('<p>Hello @place !!</p>', {context: {place: 'world'}}).body
 //=> '<p>Hello world !!</p>'
