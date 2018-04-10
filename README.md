@@ -1,7 +1,5 @@
 # jstransformer-bliss
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-bliss.svg)](https://greenkeeper.io/)
-
 [bliss](https://github.com/cstivers78/bliss) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-bliss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-bliss)
