@@ -5,7 +5,6 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-bliss/master.svg)](https://travis-ci.org/jstransformers/jstransformer-bliss)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-bliss/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-bliss)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-bliss/master.svg)](http://david-dm.org/jstransformers/jstransformer-bliss)
-
 [![NPM version](https://img.shields.io/npm/v/jstransformer-bliss.svg)](https://www.npmjs.org/package/jstransformer-bliss)
 
 ## Installation
